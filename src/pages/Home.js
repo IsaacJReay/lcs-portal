@@ -1,7 +1,7 @@
-import React from 'react';
-import { Layout, Card, Row, Col } from 'antd';
-import main_cards from '../data/main_cards.json';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Layout, Card, Row, Col } from "antd";
+import main_cards from "../data/main_cards.json";
+import { Link } from "react-router-dom";
 
 const { Meta } = Card;
 const { Content } = Layout;
