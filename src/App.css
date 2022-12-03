@@ -238,7 +238,7 @@ body {
   height: 100% !important;
 }
 .ant-layout .glass-mophism {
-  background: url('/images/background5.jpg');
+  background: url('../public/images/background5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
