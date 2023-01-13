@@ -11,6 +11,7 @@ import { useState } from "react";
 import { SidebarContext } from "./contexts/SidebarContext";
 import { Layout } from "antd";
 import Footer from "./components/footer";
+import { LanguageContextProvider } from "./contexts/LanguageContext";
 
 const { Content } = Layout;
 
@@ -18,31 +19,33 @@ function App() {
   const [collapsed, setCollapsed] = useState(false);
   const [toggled, setToggled] = useState(false);
   return (
-    <ThemeContext.Provider value={{ collapsed, setCollapsed }}>
-      <SidebarContext.Provider value={{ toggled, setToggled }}>
-        <BrowserRouter>
-          <Layout>
-            <Navbar />
-            <Layout className="containers">
-              {/* <Sidebar /> */}
-              <Layout className="glass-mophism">
-                <Content className="site-layout">
-                  <Routes>
-                    <Route path="/" element={<Home />} exact />
-                    <Route path="/resource/:id" element={<SubCard />} />
-                    <Route
-                      path="/resource/category/:category_name"
-                      element={<CategoryView />}
-                    />
-                  </Routes>
-                </Content>
-              </Layout>
+    // <ThemeContext.Provider value={{ collapsed, setCollapsed }}>
+    //   <SidebarContext.Provider value={{ toggled, setToggled }}>
+    <LanguageContextProvider>
+      <BrowserRouter>
+        <Layout>
+          <Navbar />
+          <Layout className="containers">
+            {/* <Sidebar /> */}
+            <Layout className="glass-mophism">
+              <Content className="site-layout">
+                <Routes>
+                  <Route path="/" element={<Home />} exact />
+                  <Route path="/resource/:id" element={<SubCard />} />
+                  <Route
+                    path="/resource/category/:category_name"
+                    element={<CategoryView />}
+                  />
+                </Routes>
+              </Content>
             </Layout>
-            <Footer />
           </Layout>
-        </BrowserRouter>
-      </SidebarContext.Provider>
-    </ThemeContext.Provider>
+        </Layout>
+        <Footer />
+      </BrowserRouter>
+    </LanguageContextProvider>
+    //   </SidebarContext.Provider>
+    // </ThemeContext.Provider>
   );
 }
 

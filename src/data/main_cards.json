@@ -1,6 +1,7 @@
 [
   {
     "id": "0",
+    "language": "English",
     "card_title": "KOOMPI Content Bank",
     "card_subtitle": "KOOMPI",
     "card_link": "https://unicef.koompi.app",
@@ -16,6 +17,7 @@
   },
   {
     "id": "1",
+    "language": "English",
     "card_title": "Sala KOOMPI",
     "card_subtitle": "KOOMPI",
     "card_link": "https://saladigital.org",
@@ -31,6 +33,7 @@
   },
   {
     "id": "2",
+    "language": "English",
     "card_title": "CK-12 Textbooks",
     "card_subtitle": "Books",
     "card_link": "javascript: display_subcard('ck12', 'ck12-offcanvas')",
@@ -257,6 +260,7 @@
   },
   {
     "id": "3",
+    "language": "English",
     "card_title": "Great Book of the World",
     "card_subtitle": "Ebook",
     "card_link": "http://rachel.koompi.app/modules/ebooks/index.html",
@@ -265,6 +269,7 @@
   },
   {
     "id": "4",
+    "language": "English",
     "card_title": "Hesperian Health",
     "card_subtitle": "Guidebook",
     "card_link": "javascript: display_subcard('hesperian', 'hesperian-offcanvas')",
@@ -354,6 +359,7 @@
   },
   {
     "id": "5",
+    "language": "English",
     "card_title": "Infonet Biodivision",
     "card_subtitle": "Agriculture and Environment",
     "card_link": "http://rachel.koompi.app/modules/infonet/starthere.html",
@@ -362,6 +368,7 @@
   },
   {
     "id": "6",
+    "language": "English",
     "card_title": "IICBA Electronic Library",
     "card_subtitle": "UNESCO",
     "card_link": "javascript: display_subcard('uiel', 'uiel-offcanvas')",
@@ -409,6 +416,7 @@
   },
   {
     "id": "7",
+    "language": "English",
     "card_title": "Khan Academy",
     "card_subtitle": "Education",
     "card_link": "javascript: display_subcard('khan_ed', 'khan_ed-offcanvas')",
@@ -497,6 +505,7 @@
   },
   {
     "id": "8",
+    "language": "English",
     "card_title": "Khan Academy",
     "card_subtitle": "Health and Medicine",
     "card_link": "http://rachel.koompi.app/modules/khan_academy/science/healthcare-and-medicine/index.html",
@@ -505,6 +514,7 @@
   },
   {
     "id": "9",
+    "language": "English",
     "card_title": "Math Expression",
     "card_subtitle": "Math Lesson",
     "card_link": "http://rachel.koompi.app/modules/math_expression/index.html",
@@ -513,6 +523,7 @@
   },
   {
     "id": "10",
+    "language": "English",
     "card_title": "MedlinePlus",
     "card_subtitle": "Medical Encyclopedia",
     "card_link": "http://rachel.koompi.app/modules/medline_plus/index.html",
@@ -521,6 +532,7 @@
   },
   {
     "id": "11",
+    "language": "English",
     "card_title": "Music Theory",
     "card_subtitle": "Music",
     "card_link": "http://rachel.koompi.app/modules/musictheory/index.html",
@@ -529,6 +541,7 @@
   },
   {
     "id": "12",
+    "language": "English",
     "card_title": "OLPC Educational Packages",
     "card_subtitle": "OLPC Project",
     "card_link": "javascript: display_subcard('olpc', 'olpc-offcanvas')",
@@ -623,6 +636,7 @@
   },
   {
     "id": "13",
+    "language": "English",
     "card_title": "PHET",
     "card_subtitle": "Simulation",
     "card_link": "http://phet.koompi.app/phet_km/A/index.html",
@@ -639,6 +653,7 @@
   },
   {
     "id": "14",
+    "language": "English",
     "card_title": "Power Typing",
     "card_subtitle": "Typing",
     "card_link": "http://rachel.koompi.app/modules/powertyping/index.html",
@@ -652,6 +667,7 @@
   },
   {
     "id": "15",
+    "language": "English",
     "card_title": "Practical Action",
     "card_subtitle": "Law",
     "card_link": "http://rachel.koompi.app/modules/practical_action/index.html",
@@ -661,6 +677,7 @@
 
   {
     "id": "17",
+    "language": "English",
     "card_title": "Scratch",
     "card_subtitle": "MIT",
     "card_link": "https://rachel.koompi.app/modules/scratch/index.html",
@@ -674,6 +691,7 @@
   },
   {
     "id": "18",
+    "language": "English",
     "card_title": "Understand Algebra",
     "card_subtitle": "Math",
     "card_link": "http://rachel.koompi.app/modules/understanding_algebra/default.htm",
@@ -688,6 +706,7 @@
   },
   {
     "id": "19",
+    "language": "English",
     "card_title": "W3school",
     "card_subtitle": "Programming",
     "card_link": "http://w3.koompi.app",
@@ -701,6 +720,7 @@
   },
   {
     "id": "20",
+    "language": "English",
     "card_title": "Wikipedia",
     "card_subtitle": "Book",
     "card_link": "http://wikibook.koompi.app/wikibooks_km_all_maxi/A/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98",
@@ -709,6 +729,7 @@
   },
   {
     "id": "21",
+    "language": "English",
     "card_title": "Wikipedia English",
     "card_subtitle": "English",
     "card_link": "http://rachel.koompi.app/modules/wikipedia_for_schools/index.htm",
@@ -717,6 +738,7 @@
   },
   {
     "id": "22",
+    "language": "Khmer",
     "card_title": "Wikipedia Khmer",
     "card_subtitle": "ខ្មែរ",
     "card_link": "http://wikipedia.koompi.app/wikipedia_km_all_maxi/A/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98",
@@ -725,6 +747,7 @@
   },
   {
     "id": "23",
+    "language": "Khmer",
     "card_title": "Wiktionary English-Khmer",
     "card_subtitle": "វិចនានុក្រម",
     "card_link": "http://wiktionary.koompi.app/wiktionary_km_all_maxi/A/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98",

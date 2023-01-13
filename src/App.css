@@ -358,6 +358,12 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.589);
   padding: 20px;
 }
+.lg-btn {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  cursor: pointer;
+}
 /* .card-title-bg {
   height: 12px;
   background-size: cover;
