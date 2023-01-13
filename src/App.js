@@ -10,6 +10,7 @@ import { ThemeContext } from "./contexts/ThemeContext";
 import { useState } from "react";
 import { SidebarContext } from "./contexts/SidebarContext";
 import { Layout } from "antd";
+import Footer from "./components/footer";
 
 const { Content } = Layout;
 
@@ -37,6 +38,7 @@ function App() {
                 </Content>
               </Layout>
             </Layout>
+            <Footer />
           </Layout>
         </BrowserRouter>
       </SidebarContext.Provider>

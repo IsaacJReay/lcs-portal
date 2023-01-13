@@ -10,7 +10,7 @@ const { Content } = Layout;
 function Home() {
   return (
     <Content className="home-page">
-      <Row gutter={[24, 24]}>
+      <Row gutter={[18, 18]}>
         {main_cards.map((x) => (
           <Col xs={24} sm={24} md={12} lg={8} xl={6} key={x.id}>
             {x.sub_cards ? (
@@ -20,31 +20,9 @@ function Home() {
                   title={x.card_title}
                   description={x.card_subtitle}
                 />
-                {/* <Card
-                  cover={
-                    <img
-                      className="card-img"
-                      alt="example"
-                      src={x.card_thumbnail}
-                    />
-                  }
-                >
-                  <Meta title={x.card_title} description={x.card_subtitle} />
-                </Card> */}
               </Link>
             ) : (
               <a href={x.card_link} target="_blank" rel="noopener noreferrer">
-                {/* <Card
-                  cover={
-                    <img
-                      className="card-img"
-                      alt="example"
-                      src={x.card_thumbnail}
-                    />
-                  }
-                >
-                  <Meta title={x.card_title} description={x.card_subtitle} />
-                </Card> */}
                 <Card
                   image={x.card_thumbnail}
                   title={x.card_title}
