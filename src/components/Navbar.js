@@ -1,46 +1,25 @@
-import React from 'react';
-import { useContext } from 'react';
-import { SidebarContext } from '../contexts/SidebarContext';
-import { ThemeContext } from '../contexts/ThemeContext';
-import SideHeader from './SideHeader';
-import { Avatar, Popover } from 'antd';
+import React from "react";
+import { useContext } from "react";
+import { SidebarContext } from "../contexts/SidebarContext";
+import { ThemeContext } from "../contexts/ThemeContext";
+import SideHeader from "./SideHeader";
+import { Avatar, Popover } from "antd";
 
 function Navbar() {
-  const { setCollapsed } = useContext(ThemeContext);
-  const { setToggled } = useContext(SidebarContext);
-  const onCollapse = () => {
-    setCollapsed((collapsed) => !collapsed);
-  };
-  const onToggle = () => {
-    setToggled((toggled) => !toggled);
-  };
   return (
-    <div>
+    <div className="navbar-bg">
       <div className="navbar">
         <div className="navbar-left">
           <img
-            className="desktop-menu"
-            onClick={() => onCollapse()}
-            src={require('../assets/icons/menu.png')}
-            height={20}
-            style={{
-              marginLeft: 10,
-              marginRight: 20,
-              cursor: 'pointer',
-            }}
-            alt="koompi-img"
-          />
-          <img
             className="mobile-menu"
-            onClick={() => onToggle()}
-            src={require('../assets/icons/menu.png')}
+            src={require("../assets/icons/menu.png")}
             height={20}
-            style={{ marginLeft: 10, marginRight: 20, cursor: 'pointer' }}
+            style={{ marginLeft: 10, marginRight: 20, cursor: "pointer" }}
             alt="koompi-img"
           />
           <a href="/">
             <img
-              src={require('../assets/Koompi-Black.png')}
+              src={require("../assets/Koompi-Black.png")}
               height={40}
               alt="koompi-img"
               className="logo-img"

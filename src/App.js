@@ -1,15 +1,15 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import SubCard from './pages/SubCard';
-import Home from './pages/Home';
-import CategoryView from './pages/CategoryView';
-import { ThemeContext } from './contexts/ThemeContext';
-import { useState } from 'react';
-import { SidebarContext } from './contexts/SidebarContext';
-import { Layout } from 'antd';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SubCard from "./pages/SubCard";
+import Home from "./pages/Home";
+import CategoryView from "./pages/CategoryView";
+import { ThemeContext } from "./contexts/ThemeContext";
+import { useState } from "react";
+import { SidebarContext } from "./contexts/SidebarContext";
+import { Layout } from "antd";
 
 const { Content } = Layout;
 
@@ -22,8 +22,8 @@ function App() {
         <BrowserRouter>
           <Layout>
             <Navbar />
-            <Layout>
-              <Sidebar />
+            <Layout className="containers">
+              {/* <Sidebar /> */}
               <Layout className="glass-mophism">
                 <Content className="site-layout">
                   <Routes>

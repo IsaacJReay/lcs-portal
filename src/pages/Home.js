@@ -1,9 +1,10 @@
 import React from "react";
-import { Layout, Card, Row, Col } from "antd";
+import { Layout, Row, Col } from "antd";
 import main_cards from "../data/main_cards.json";
 import { Link } from "react-router-dom";
 
-const { Meta } = Card;
+// const { Meta } = Card;
+import Card from "../components/Card";
 const { Content } = Layout;
 
 function Home() {
@@ -15,6 +16,11 @@ function Home() {
             {x.sub_cards ? (
               <Link to={`/resource/${x.id}`}>
                 <Card
+                  image={x.card_thumbnail}
+                  title={x.card_title}
+                  description={x.card_subtitle}
+                />
+                {/* <Card
                   cover={
                     <img
                       className="card-img"
@@ -24,11 +30,11 @@ function Home() {
                   }
                 >
                   <Meta title={x.card_title} description={x.card_subtitle} />
-                </Card>
+                </Card> */}
               </Link>
             ) : (
               <a href={x.card_link} target="_blank" rel="noopener noreferrer">
-                <Card
+                {/* <Card
                   cover={
                     <img
                       className="card-img"
@@ -38,7 +44,12 @@ function Home() {
                   }
                 >
                   <Meta title={x.card_title} description={x.card_subtitle} />
-                </Card>
+                </Card> */}
+                <Card
+                  image={x.card_thumbnail}
+                  title={x.card_title}
+                  description={x.card_subtitle}
+                />
               </a>
             )}
           </Col>
