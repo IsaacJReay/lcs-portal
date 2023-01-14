@@ -20,7 +20,7 @@ function Home() {
       )}
       {state === "Khmer" && (
         <div onClick={() => setState("English")} className="lg-btn">
-          <img src="/icons8-england-circular-48.png" />
+          <img src="/icons8-great-britain-48.png" />
         </div>
       )}
       {state === "" && (

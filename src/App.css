@@ -231,13 +231,13 @@ a:hover {
   .ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed.sidebar {
     display: none;
   }
-  .ant-drawer-body {
+  /* .ant-drawer-body {
     padding: 10px 0 !important;
     display: block !important;
-  }
-  .ant-drawer-content-wrapper {
+  } */
+  /* .ant-drawer-content-wrapper {
     display: block !important;
-  }
+  } */
   .ant-drawer-mask {
     display: block !important;
   }
@@ -279,13 +279,13 @@ a:hover {
   .ant-layout-sider.ant-layout-sider-dark.ant-layout-sider-collapsed.sidebar {
     display: none;
   }
-  .ant-drawer-body {
+  /* .ant-drawer-body {
     padding: 10px 0 !important;
     display: block !important;
-  }
-  .ant-drawer-content-wrapper {
+  } */
+  /* .ant-drawer-content-wrapper {
     display: block !important;
-  }
+  } */
   .ant-drawer-mask {
     display: block !important;
   }
@@ -368,6 +368,10 @@ a:hover {
   cursor: pointer;
   z-index: 1;
 }
+
+/* .flag-size {
+  width: 70%;
+} */
 /* .card-title-bg {
   height: 12px;
   background-size: cover;

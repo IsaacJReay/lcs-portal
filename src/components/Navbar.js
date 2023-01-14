@@ -3,7 +3,20 @@ import { useContext } from "react";
 import { SidebarContext } from "../contexts/SidebarContext";
 import { ThemeContext } from "../contexts/ThemeContext";
 import SideHeader from "./SideHeader";
-import { Avatar, Popover, Button, Drawer, Radio, Space } from "antd";
+import logo from "../assets/Koompi-Black.png";
+import data from "../data/sidebar.json";
+import { Link } from "react-router-dom";
+import {
+  Avatar,
+  Popover,
+  Button,
+  Drawer,
+  Radio,
+  Space,
+  Row,
+  Col,
+  Menu,
+} from "antd";
 
 function Navbar() {
   // const { setCollapsed } = useContext(ThemeContext);
@@ -15,7 +28,7 @@ function Navbar() {
   //   setToggled((toggled) => !toggled);
   // };
   const [open, setOpen] = useState(false);
-  const [placement, setPlacement] = useState("right");
+  const [placement, setPlacement] = useState("left");
   const showDrawer = () => {
     setOpen(true);
   };
@@ -82,7 +95,61 @@ function Navbar() {
           </a>
         </div>
       </div>
-      <Drawer
+      <div className="top-menu">
+        <Drawer
+          width="300"
+          placement={placement}
+          onClose={onClose}
+          closable={false}
+          open={open}
+          // bodyStyle={{
+          //   background: "white",
+          // }}
+        >
+          <center>
+            <img src={logo} alt="koompi-logo" className="koompi-logo" />
+          </center>
+          <Row
+            className="header-container"
+            justify="space-between"
+            align="middle"
+          >
+            <Col span={24}>
+              <Menu
+                theme="light"
+                mode="inline"
+                items={data.main_list.map((x) => {
+                  return {
+                    key: x.id,
+                    label: x.disp_name,
+                    icon: (
+                      <Link
+                        onClick={() => {
+                          localStorage.setItem("category", x.disp_name);
+                          onClose();
+                        }}
+                        to={
+                          !x.card_link
+                            ? `/resource/category/${x.disp_name}`
+                            : x.card_link
+                        }
+                      >
+                        <img
+                          src={x.img_src}
+                          alt="koompi-img"
+                          width="20"
+                          height="20"
+                        />
+                      </Link>
+                    ),
+                  };
+                })}
+              />
+            </Col>
+          </Row>
+        </Drawer>
+      </div>
+      {/* <Drawer
         title="Drawer with extra actions"
         placement={placement}
         width={500}
@@ -92,7 +159,7 @@ function Navbar() {
         <p>Some contents...</p>
         <p>Some contents...</p>
         <p>Some contents...</p>
-      </Drawer>
+      </Drawer> */}
       {/* <SideHeader /> */}
     </div>
   );
