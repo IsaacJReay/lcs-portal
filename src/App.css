@@ -215,6 +215,9 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .containers {
+    width: 98% !important;
+  }
   .desktop-menu {
     display: none !important;
   }
@@ -363,6 +366,7 @@ a:hover {
   bottom: 60px;
   right: 60px;
   cursor: pointer;
+  z-index: 1;
 }
 /* .card-title-bg {
   height: 12px;

@@ -19,9 +19,7 @@ function Navbar() {
   const showDrawer = () => {
     setOpen(true);
   };
-  const onChange = (e) => {
-    setPlacement(e.target.value);
-  };
+
   const onClose = () => {
     setOpen(false);
   };
@@ -84,7 +82,7 @@ function Navbar() {
           </a>
         </div>
       </div>
-      {/* <Drawer
+      <Drawer
         title="Drawer with extra actions"
         placement={placement}
         width={500}
@@ -94,7 +92,7 @@ function Navbar() {
         <p>Some contents...</p>
         <p>Some contents...</p>
         <p>Some contents...</p>
-      </Drawer> */}
+      </Drawer>
       {/* <SideHeader /> */}
     </div>
   );
