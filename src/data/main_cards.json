@@ -37,7 +37,7 @@
     "card_title": "CK-12 Textbooks",
     "card_subtitle": "Books",
     "card_link": "javascript: display_subcard('ck12', 'ck12-offcanvas')",
-    "card_thumbnail": "images/main/ck12logo.webp",
+    "card_thumbnail": "images/ck12.png",
     "card_categories": ["Home", "STEM", "Education", "Science", "Mathematic"],
     "sub_cards": [
       {
@@ -264,7 +264,7 @@
     "card_title": "Great Book of the World",
     "card_subtitle": "Ebook",
     "card_link": "http://rachel.koompi.app/modules/ebooks/index.html",
-    "card_thumbnail": "images/main/coolbooksmall.webp",
+    "card_thumbnail": "images/book.png",
     "card_categories": ["Home", "Education", "General Education"]
   },
   {
@@ -363,7 +363,7 @@
     "card_title": "Infonet Biodivision",
     "card_subtitle": "Agriculture and Environment",
     "card_link": "http://rachel.koompi.app/modules/infonet/starthere.html",
-    "card_thumbnail": "images/main/infonet.webp",
+    "card_thumbnail": "images/infonet.webp",
     "card_categories": ["Home", "Health", "Education"]
   },
   {
@@ -420,7 +420,7 @@
     "card_title": "Khan Academy",
     "card_subtitle": "Education",
     "card_link": "javascript: display_subcard('khan_ed', 'khan_ed-offcanvas')",
-    "card_thumbnail": "images/main/kalogo.webp",
+    "card_thumbnail": "images/kan.png",
     "card_categories": ["Home", "STEM", "Education", "Science", "Mathematic"],
     "sub_cards": [
       {
@@ -518,7 +518,7 @@
     "card_title": "Math Expression",
     "card_subtitle": "Math Lesson",
     "card_link": "http://rachel.koompi.app/modules/math_expression/index.html",
-    "card_thumbnail": "images/main/mathexpressionlogo.webp",
+    "card_thumbnail": "images/math.webp",
     "card_categories": ["Home", "STEM", "Education", "Science", "Mathematic"]
   },
   {
@@ -527,7 +527,7 @@
     "card_title": "MedlinePlus",
     "card_subtitle": "Medical Encyclopedia",
     "card_link": "http://rachel.koompi.app/modules/medline_plus/index.html",
-    "card_thumbnail": "images/main/medlinepluslogo.webp",
+    "card_thumbnail": "images/medline.png",
     "card_categories": ["Home", "Health", "Education", "Medicine"]
   },
   {
@@ -536,7 +536,7 @@
     "card_title": "Music Theory",
     "card_subtitle": "Music",
     "card_link": "http://rachel.koompi.app/modules/musictheory/index.html",
-    "card_thumbnail": "images/main/musictheorylogo.webp",
+    "card_thumbnail": "images/music.png",
     "card_categories": ["Home", "Art", "Music"]
   },
   {
@@ -640,7 +640,7 @@
     "card_title": "PHET",
     "card_subtitle": "Simulation",
     "card_link": "http://phet.koompi.app/phet_km/A/index.html",
-    "card_thumbnail": "images/main/phet.webp",
+    "card_thumbnail": "images/phet.png",
     "card_categories": [
       "Home",
       "STEM",
@@ -657,7 +657,7 @@
     "card_title": "Power Typing",
     "card_subtitle": "Typing",
     "card_link": "http://rachel.koompi.app/modules/powertyping/index.html",
-    "card_thumbnail": "images/main/powertypinglogo.webp",
+    "card_thumbnail": "images/typing.jpg",
     "card_categories": [
       "Home",
       "STEM",
@@ -671,7 +671,7 @@
     "card_title": "Practical Action",
     "card_subtitle": "Law",
     "card_link": "http://rachel.koompi.app/modules/practical_action/index.html",
-    "card_thumbnail": "images/main/practical_action.webp",
+    "card_thumbnail": "images/practical.png",
     "card_categories": ["Home", "Law", "Education"]
   },
 
@@ -681,7 +681,7 @@
     "card_title": "Scratch",
     "card_subtitle": "MIT",
     "card_link": "https://rachel.koompi.app/modules/scratch/index.html",
-    "card_thumbnail": "images/main/scratchlogo.webp",
+    "card_thumbnail": "images/scratchs.png",
     "card_categories": [
       "Home",
       "STEM",
@@ -695,7 +695,7 @@
     "card_title": "Understand Algebra",
     "card_subtitle": "Math",
     "card_link": "http://rachel.koompi.app/modules/understanding_algebra/default.htm",
-    "card_thumbnail": "images/main/understandingalgebralogo.webp",
+    "card_thumbnail": "images/algebra.png",
     "card_categories": [
       "Home",
       "STEM",
@@ -724,7 +724,7 @@
     "card_title": "Wikipedia",
     "card_subtitle": "Book",
     "card_link": "http://wikibook.koompi.app/wikibooks_km_all_maxi/A/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98",
-    "card_thumbnail": "images/main/wikipedia120.webp",
+    "card_thumbnail": "images/wikipidia.png",
     "card_categories": ["Home", "Education", "General Education"]
   },
   {
@@ -733,7 +733,7 @@
     "card_title": "Wikipedia English",
     "card_subtitle": "English",
     "card_link": "http://rachel.koompi.app/modules/wikipedia_for_schools/index.htm",
-    "card_thumbnail": "images/main/wikipedia120.webp",
+    "card_thumbnail": "images/wikipidia.png",
     "card_categories": ["Home", "Education", "General Education"]
   },
   {
@@ -742,7 +742,7 @@
     "card_title": "Wikipedia Khmer",
     "card_subtitle": "ខ្មែរ",
     "card_link": "http://wikipedia.koompi.app/wikipedia_km_all_maxi/A/%E1%9E%91%E1%9F%86%E1%9E%96%E1%9F%90%E1%9E%9A%E1%9E%8A%E1%9E%BE%E1%9E%98",
-    "card_thumbnail": "images/main/wikipedia120.webp",
+    "card_thumbnail": "images/wikipidia.png",
     "card_categories": ["Home", "Education", "General Education"]
   },
   {
