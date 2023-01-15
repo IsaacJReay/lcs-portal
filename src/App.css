@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Inter";
-  /* src: url("/fonts/Inter-Black.ttf"); */
+  src: url("/public/fonts/Inter-Medium.ttf");
 }
 * {
   margin: 0px;
@@ -158,7 +158,10 @@ a:hover {
 /* ------home page-------- */
 
 .home-page {
-  margin: 20px;
+  /* margin: 20; */
+  margin-left: 40px;  
+  margin-right: 40px;  
+  margin-bottom: 20px;
   top: 500px !important;
 }
 
@@ -344,7 +347,7 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.589);
 }
 .card-title h1 {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: #333;
   margin-bottom: 5px;
@@ -352,7 +355,7 @@ a:hover {
   /* margin-bottom: -6px; */
 }
 .card-title p {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 .footer-bg {
   backdrop-filter: blur(20px);

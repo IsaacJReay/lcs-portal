@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Layout, Row, Col, Button } from "antd";
+import { Layout, Row, Col, _ } from "antd";
 import main_cards from "../data/main_cards.json";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const { Content } = Layout;
 function Home() {
   let Khmer = main_cards.filter((lg) => lg.language === "Khmer");
   let English = main_cards.filter((lg) => lg.language === "English");
-  const [state, setState] = useState("");
+  const [state, setState] = useState("Khmer");
   return (
     <Content className="home-page">
       {state === "English" && (
@@ -21,11 +21,6 @@ function Home() {
       {state === "Khmer" && (
         <div onClick={() => setState("English")} className="lg-btn">
           <img src="/icons8-great-britain-48.png" />
-        </div>
-      )}
-      {state === "" && (
-        <div onClick={() => setState("English")} className="lg-btn">
-          <img src="/icons8-cambodia-circular-48.png" />
         </div>
       )}
       <Row gutter={[18, 18]}>

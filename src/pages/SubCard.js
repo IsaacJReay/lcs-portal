@@ -12,15 +12,16 @@ function SubCard() {
   return (
     <div className="home-page">
       <div className="breadcrumb">
-        <img
-          onClick={() => navigate(-1)}
-          src={require('../assets/icons/back.png')}
-          height="12"
-          width="auto"
-          alt="koompi-img"
-        />
-
-        <Breadcrumb style={{ marginLeft: '16px' }}>
+        <Breadcrumb style={{ marginLeft: '20px', paddingBottom: '20px' }}>
+          <Breadcrumb.Item>
+            <img
+              onClick={() => navigate(-1)}
+              src={require('../assets/icons/back.png')}
+              height="12"
+              width="auto"
+              alt="koompi-img"
+            />
+          </Breadcrumb.Item>
           <Breadcrumb.Item>
             <Link to="/">Home</Link>
           </Breadcrumb.Item>
