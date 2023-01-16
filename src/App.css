@@ -159,9 +159,9 @@ a:hover {
 
 .home-page {
   /* margin: 20; */
-  margin-left: 40px;  
-  margin-right: 40px;  
-  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 90px;
   top: 500px !important;
 }
 
@@ -358,6 +358,9 @@ a:hover {
   font-size: 0.9rem;
 }
 .footer-bg {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgb(234, 234, 234);
